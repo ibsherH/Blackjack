@@ -1,0 +1,18 @@
+***Overview****
+Press play to start. Game will not start without a bet.
+If bet is invalid: characters, decimals, letters and bet more than balance, then game will not start
+Score will be shown in textbox
+If player gets natural, dealer's hand will be revealed
+If dealer has a natural too, game will be end in tie, if not, player will win.
+Press hit to get more cards, if hand busts or is 21, dealer's turn starts
+Press stay to stop getting card, dealer's turn will start
+Before giving dealer cards, if dealer already has a 21, then dealer wins no matter what. Even if player has a 3 card 21, dealer's natural will beat it
+Dealer will keep on hitting until 17
+Once both dealer and player is done getting cards, winner will be decided
+
+***Betting system***
+Player natural = Gain 1.5 times the bet
+Tie = No changes
+Player regular win = Gain amount that was bet
+Player loss: Lose amount that was bet
+Dealer natural = Lose amount that was bet
